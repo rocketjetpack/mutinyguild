@@ -1,0 +1,77 @@
+body {
+    background: url('https://www.mutiny-guild.com/images/mutinysplash.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+}
+
+.content-body {
+    width: 100%;
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-dark {
+    color: #1f1f1f;
+}
+
+.navbar-brand {
+    padding: 0px; /* firefox bug fix */
+}
+
+.navbar-brand>img {
+    height: 100%;
+    padding: 0px; /* firefox bug fix */
+    width: 40px;
+    height: 40px;
+}
+
+.alert-popup-top{
+    position: fixed;
+    top: 2px; 
+    left: 20%;
+    width: 60%;
+}
+
+.about-title {
+    border: 1px solid black; 
+    background-color: white; 
+    padding: 10px; 
+    width: 1000px
+}
+
+.about-section {
+    width: 1000px;
+    padding: 10px;
+    background-color: white;
+    border-left: 1px solid black;
+    border-right:1px solid black;
+}
+
+.opacity-70 {
+    opacity: 0.7;
+    filter:(opacity=70);
+}
+
+.opacity-80 {
+    opacity: 0.8;
+    filter:(opacity=80);
+}
+
+.opacity-90 {
+    opacity: 0.9;
+    filter:(opacity=90);
+}
+
+.opacity-95 {
+    opacity: 0.95;
+    filter:(opacity=95);
+}
+
+.opacity-100 {
+    opacity: 1.0;
+    filter:(opacity=100);
+}
